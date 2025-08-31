@@ -1,6 +1,6 @@
-# Corne v4 ZMK Configuration
+# Corne ZMK Configuration
 
-Это конфигурация для клавиатуры Corne v4 с использованием ZMK firmware.
+Это конфигурация для клавиатуры Corne с использованием ZMK firmware.
 
 ## Структура файлов
 

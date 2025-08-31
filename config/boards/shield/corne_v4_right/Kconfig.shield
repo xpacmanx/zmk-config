@@ -1,2 +1,0 @@
-config SHIELD_CORNE_V4_RIGHT
-    def_bool $(shields_list_contains,corne_v4_right)
