@@ -1,0 +1,108 @@
+if SHIELD_CORNE_V4
+
+config ZMK_KEYBOARD_NAME
+    default "Corne v4"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_BLE
+    default y
+
+config ZMK_EXT_POWER
+    default y
+
+config ZMK_RGB_UNDERGLOW
+    default y
+
+config ZMK_RGB_UNDERGLOW_AUTO_OFF_IDLE
+    default y
+
+config ZMK_RGB_UNDERGLOW_AUTO_OFF_USB
+    default y
+
+config ZMK_RGB_UNDERGLOW_EFF_START
+    default 2
+
+config ZMK_RGB_UNDERGLOW_ON_START
+    default y
+
+config ZMK_RGB_UNDERGLOW_SPD_START
+    default 3
+
+config ZMK_RGB_UNDERGLOW_HUE_START
+    default 0
+
+config ZMK_RGB_UNDERGLOW_SAT_START
+    default 100
+
+config ZMK_RGB_UNDERGLOW_BRT_START
+    default 50
+
+config ZMK_RGB_UNDERGLOW_HUE_STEP
+    default 10
+
+config ZMK_RGB_UNDERGLOW_SAT_STEP
+    default 10
+
+config ZMK_RGB_UNDERGLOW_BRT_STEP
+    default 10
+
+config ZMK_RGB_UNDERGLOW_SPD_STEP
+    default 1
+
+config ZMK_RGB_UNDERGLOW_HUE_STEP_FAST
+    default 30
+
+config ZMK_RGB_UNDERGLOW_SAT_STEP_FAST
+    default 30
+
+config ZMK_RGB_UNDERGLOW_BRT_STEP_FAST
+    default 30
+
+config ZMK_RGB_UNDERGLOW_SPD_STEP_FAST
+    default 3
+
+config ZMK_RGB_UNDERGLOW_HUE_STEP_SLOW
+    default 5
+
+config ZMK_RGB_UNDERGLOW_SAT_STEP_SLOW
+    default 5
+
+config ZMK_RGB_UNDERGLOW_BRT_STEP_SLOW
+    default 5
+
+config ZMK_RGB_UNDERGLOW_SPD_STEP_SLOW
+    default 1
+
+config ZMK_RGB_UNDERGLOW_HUE_STEP_FASTEST
+    default 60
+
+config ZMK_RGB_UNDERGLOW_SAT_STEP_FASTEST
+    default 60
+
+config ZMK_RGB_UNDERGLOW_BRT_STEP_FASTEST
+    default 60
+
+config ZMK_RGB_UNDERGLOW_SPD_STEP_FASTEST
+    default 5
+
+config ZMK_RGB_UNDERGLOW_HUE_STEP_SLOWEST
+    default 2
+
+config ZMK_RGB_UNDERGLOW_SAT_STEP_SLOWEST
+    default 2
+
+config ZMK_RGB_UNDERGLOW_BRT_STEP_SLOWEST
+    default 2
+
+config ZMK_RGB_UNDERGLOW_SPD_STEP_SLOWEST
+    default 1
+
+endif # SHIELD_CORNE_V4
