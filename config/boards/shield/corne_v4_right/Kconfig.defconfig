@@ -1,6 +1,0 @@
-if SHIELD_CORNE_V4_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "Corne v4 Right"
-
-endif # SHIELD_CORNE_V4_RIGHT

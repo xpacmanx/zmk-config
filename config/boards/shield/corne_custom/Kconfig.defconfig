@@ -1,0 +1,48 @@
+if SHIELD_CORNE_CUSTOM
+
+config ZMK_KEYBOARD_NAME
+    default "Corne Custom"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_USB
+    default y
+
+config ZMK_BLE
+    default y
+
+config ZMK_EXT_POWER
+    default y
+
+config ZMK_RGB_UNDERGLOW
+    default y
+
+config ZMK_RGB_UNDERGLOW_AUTO_OFF_IDLE
+    default y
+
+config ZMK_RGB_UNDERGLOW_AUTO_OFF_USB
+    default y
+
+config ZMK_RGB_UNDERGLOW_EFF_START
+    default 2
+
+config ZMK_RGB_UNDERGLOW_ON_START
+    default y
+
+config ZMK_RGB_UNDERGLOW_SPD_START
+    default 3
+
+config ZMK_RGB_UNDERGLOW_HUE_START
+    default 0
+
+config ZMK_RGB_UNDERGLOW_SAT_START
+    default 100
+
+config ZMK_RGB_UNDERGLOW_BRT_START
+    default 50
+
+endif # SHIELD_CORNE_CUSTOM

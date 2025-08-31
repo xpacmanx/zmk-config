@@ -1,6 +1,0 @@
-if SHIELD_CORNE_CUSTOM_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "Corne Custom Right"
-
-endif # SHIELD_CORNE_CUSTOM_RIGHT
