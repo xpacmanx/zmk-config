@@ -1,3 +1,4 @@
 build:
   settings:
-    shield_root: shields
+    board_root: .
+    west-config: zmk-config
