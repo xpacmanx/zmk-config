@@ -1,0 +1,9 @@
+if SHIELD_CORNE_LEFT_CUSTOM
+
+config ZMK_KEYBOARD_NAME
+    default "Corne Left Custom"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_CORNE_LEFT_CUSTOM
