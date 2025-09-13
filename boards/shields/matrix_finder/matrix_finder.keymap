@@ -3,10 +3,10 @@
         compatible = "zmk,keymap";
         default_layer {
             bindings = <
-                &kp N0 &kp N1 &kp N2 &kp N3 &kp N4 &kp N5
-                &kp N6 &kp N7 &kp N8 &kp N9 &kp N10 &kp N11
-                &kp N12 &kp N13 &kp N14 &kp N15 &kp N16 &kp N17
-                &kp N18 &kp N19 &kp N20 &kp N21 &kp N22 &kp N23
+                &kp NUMBER_0 &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5
+                &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp KP_N0 &kp KP_N1
+                &kp KP_N2 &kp KP_N3 &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_N7
+                &kp KP_N8 &kp KP_N9 &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N3
             >;
         };
     };
