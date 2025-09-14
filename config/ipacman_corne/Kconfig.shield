@@ -1,2 +1,0 @@
-config SHIELD_IPACMAN_CORNE
-    def_bool $(shields_list_contains, ipacman_corne)

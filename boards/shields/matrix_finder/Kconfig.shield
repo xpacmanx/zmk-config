@@ -1,2 +1,3 @@
 config SHIELD_MATRIX_FINDER
     def_bool $(shields_list_contains,matrix_finder)
+    select ZMK_KEYMAP_DEFAULT
