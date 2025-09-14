@@ -1,2 +1,0 @@
-config SHIELD_MATRIX_FINDER_SHIELD
-    def_bool $(shields_list_contains,matrix_finder_shield)
