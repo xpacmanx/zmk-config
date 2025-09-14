@@ -1,0 +1,3 @@
+config BOARD_MATRIX_FINDER_BOARD
+	bool "matrix_finder_board"
+	depends on SOC_NRF52840_QIAA

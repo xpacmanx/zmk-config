@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: nice_nano_v2
-    shield: matrix_finder
+  - board: matrix_finder_board
+    shield: matrix_finder_shield
